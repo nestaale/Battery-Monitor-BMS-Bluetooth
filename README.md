@@ -1,6 +1,8 @@
 # batterymon
 Bluetooth Battery monitor for LiFePO4 BMS
 
+![alt text](https://github.com/nestaale/Battery-Monitor-BMS-Bluetooth/blob/main/batterymon.jpg?raw=true)
+
 By Alessandro Nesta 2024
 Youtube channel: https://www.youtube.com/@alessandronestaadventures
 
