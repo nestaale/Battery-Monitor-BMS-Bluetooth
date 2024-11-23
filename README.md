@@ -41,3 +41,9 @@ The path are:
 - "Your Sketchbook location"\libraries\lv_conf.h
 
 Please note that depending on your LCD, you may have different configuration for these 2 files.
+
+Since the bluetooth library is very big, there is not much space in ESP32 memory as it is, so you need to change partition scheme and remove OTA, which are not needed for this project.
+In Arduino IDE, Tools Menu -> Partition Scheme -> No OTA (2MB APP/2MB SPIFFS)
+
+Any suggestion is welcome.
+
