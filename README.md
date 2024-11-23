@@ -23,21 +23,21 @@ This first version works with one battery only. It connects directly without any
 It goes to standby after 2 minutes and it wakes up if you touch the screen.
 Standby current around 0,6 mA.
 
-  Future plan:
-    - Settings and preferences screen.
-    - Possibility to monitor multiple batteries in parallel.
+Future plan:
+- Settings and preferences screen.
+- Possibility to monitor multiple batteries in parallel.
 
-   Libraries version:
-    lvgl by kisvegabor version 9.2.2
-    TFT_eSPI by Bodmer version 2.5.43
-    XPT2046_Touchscreen by Paul Stoffegen version 1.4
+Libraries version:
+- lvgl by kisvegabor version 9.2.2
+- TFT_eSPI by Bodmer version 2.5.43
+- XPT2046_Touchscreen by Paul Stoffegen version 1.4
 
-   Please note that you need to configure TFT_eSPI and LVGL library to match your Display configuration.
-   In this repository you will find the files for my CYD display which is the version with also USB-C.
+Please note that you need to configure TFT_eSPI and LVGL library to match your Display configuration.
+In this repository you will find the files for my CYD display which is the version with also USB-C.
 
-   The files are: User_Setup.h and lv_conf.h
-    The path are: 
-    "Your Sketchbook location"\libraries\TFT_eSPI\User_Setup.h
-    "Your Sketchbook location"\libraries\lv_conf.h
+The files are: User_Setup.h and lv_conf.h
+The path are: 
+- "Your Sketchbook location"\libraries\TFT_eSPI\User_Setup.h
+- "Your Sketchbook location"\libraries\lv_conf.h
 
-   Please note that depending on your LCD, you may have different configuration for these 2 files.
+Please note that depending on your LCD, you may have different configuration for these 2 files.
